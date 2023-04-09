@@ -85,7 +85,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 It shows that we are on the main branch and we didn't commit anything yet.
 
 
-8. Add remote repository to your local Git repository using the 'git remote add origin -your-repository-url' command. Replace your-repository-url with the URL as seen on the first step in creating a project.
+8. Add remote repository to your local Git repository using the 'git remote add origin -your-repository-url' command. Replace your-repository-url with the URL as seen on the first step under creating a project.
 ```
 git remote add origin your-repository-url
 
@@ -105,4 +105,9 @@ git comit -m "first commit"
 git push --set-upstream origin master
 
 ```
-*(Note: If this is the first time you've pushed to the repository, Git will prompt you to enter GitHub username and passweord.)*
+*(Note: If this is the first time you've pushed to the repository, Git will prompt you to enter GitHub username and password.)*
+
+That's it! Your project should now be pushed to your new repository on GitHub.
+![github5.png](images%2Fgithub5.png)
+
+
