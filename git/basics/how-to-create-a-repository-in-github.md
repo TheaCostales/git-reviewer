@@ -17,8 +17,17 @@
 #### Complete Development with GitHub
 ![image10_1a4384e5fa.png](images%2Fimage10_1a4384e5fa.png)
 
-
-
 # Create a repository
-
+## Initializing the Project
+1. Go to GitHub account
+2. Click on the + button
+3. Select a new repository 
+4. Type repository name 
+5. Add description (optional)
+![github1.png](images%2Fgithub1.png)
+6. Choose repository visibility 
+![github2.png](images%2Fgithub2.png)
+7. If you're importing an existing repository to GitHub, don't choose any of these options, as you may introduce a merge conflict.
+![github3.png](images%2Fgithub3.png)
+8. Click Create Repository 
 
