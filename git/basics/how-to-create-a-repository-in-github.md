@@ -18,7 +18,7 @@
 ![image10_1a4384e5fa.png](images%2Fimage10_1a4384e5fa.png)
 
 # Creating a repository
-## Initializing the Project
+
 1. Go to GitHub account
 2. Click on the + button
 3. Select a new repository 
@@ -33,7 +33,39 @@
     ![github3.png](images%2Fgithub3.png)
 8. Click Create Repository 
 
-## Creating a Project 
-Clone the remote repository to the local directory. Github provides a detailed guide on how to clone, add remote and initialize a Git project.
-![github4.png](images%2Fgithub4.png)
+### Creating a Project 
 
+1. Clone the remote repository to the local directory. Github provides a detailed guide on how to clone, add remote and initialize a Git project.
+![github4.png](images%2Fgithub4.png)
+2. Following the second set of steps since we will push an existing repository.
+3. Go to PyCharm 
+4. Create a New Project
+
+*(Note: repository name from GitHub should be the same as the project name created on pycharm as your local directory.)*
+![pycharm1.png](images%2Fpycharm1.png)
+
+5. Open the terminal
+6. Initialize Git using the command - git init
+```
+git init
+
+(venv) (base) mariatheresacostales@marias-air gianpogi % git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint:   git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint:   git branch -m <name>
+Initialized empty Git repository in /Users/mariatheresacostales/PycharmProjects/gianpogi/.git/
+(venv) (base) mariatheresacostales@marias-air gianpogi % 
+
+```
+7. Check the status by using the command - git status
+```
+git status
+
+```
