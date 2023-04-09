@@ -26,8 +26,9 @@
 5. Add description (optional)
 ![github1.png](images%2Fgithub1.png)
 6. Choose repository visibility 
-![github2.png](images%2Fgithub2.png)
+
+    ![github2.png](images%2Fgithub2.png)
 7. If you're importing an existing repository to GitHub, don't choose any of these options, as you may introduce a merge conflict.
-![github3.png](images%2Fgithub3.png)
+    ![github3.png](images%2Fgithub3.png)
 8. Click Create Repository 
 
