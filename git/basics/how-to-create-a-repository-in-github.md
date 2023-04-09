@@ -17,7 +17,7 @@
 #### Complete Development with GitHub
 ![image10_1a4384e5fa.png](images%2Fimage10_1a4384e5fa.png)
 
-# Create a repository
+# Creating a repository
 ## Initializing the Project
 1. Go to GitHub account
 2. Click on the + button
@@ -28,7 +28,12 @@
 6. Choose repository visibility 
 
     ![github2.png](images%2Fgithub2.png)
-7. If you're importing an existing repository to GitHub, don't choose any of these options, as you may introduce a merge conflict.
+7. If you're importing an existing repository to GitHub, don't choose any of these options, as you may introduce a merge 
+   conflict.
     ![github3.png](images%2Fgithub3.png)
 8. Click Create Repository 
+
+## Creating a Project 
+Clone the remote repository to the local directory. Github provides a detailed guide on how to clone, add remote and initialize a Git project.
+![github4.png](images%2Fgithub4.png)
 
