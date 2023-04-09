@@ -44,8 +44,8 @@
 *(Note: repository name from GitHub should be the same as the project name created on pycharm as your local directory.)*
 ![pycharm1.png](images%2Fpycharm1.png)
 
-5. Open the terminal
-6. Initialize Git using the command - git init
+5. Once project is created, open Terminal View. You can do this by going to View > Tool Windows > Terminal.
+6. Initialize a new Git repository in your project's root directory using the 'git init' command
 ```
 git init
 
@@ -64,8 +64,43 @@ Initialized empty Git repository in /Users/mariatheresacostales/PycharmProjects/
 (venv) (base) mariatheresacostales@marias-air gianpogi % 
 
 ```
-7. Check the status by using the command - git status
+7. Check the status by using the command 'git status'
 ```
 git status
 
+(venv) (base) mariatheresacostales@marias-air gianpogi % git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .idea/
+        main.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
 ```
+It shows that we are on the main branch and we didn't commit anything yet.
+
+8. Add remote repository to your local Git repository using the 'git remote add origin -your-repository-url' command. Replace your-repository-url with the URL as seen on the first step in creating a project.
+```
+git remote add origin your-repository-url
+
+```
+9. Stage all the project's files for commit using 'git add' command.
+```
+git add .
+
+```
+8. Commit all changes with a message using the following command:
+```
+git comit -m "first commit"
+
+```
+9. Push changes to the remote repository using the following command: 
+```
+git push --set-upstream origin master
+
+```
+(*Note: If this is the first time you've pushed to the repository, Git will prompt you to enter GitHub username and passweord.)
