@@ -15,7 +15,10 @@
 | git checkout             | switch to another branch and check it out into your working directory.                                    |
 
 #### Complete Development with GitHub
-<img src="/Users/mariatheresacostales/Desktop/image10_1a4384e5fa.png"/>
+![image10_1a4384e5fa.png](images%2Fimage10_1a4384e5fa.png)
+
+
 
 # Create a repository
+
 
