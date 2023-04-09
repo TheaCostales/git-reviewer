@@ -1,4 +1,5 @@
 # Basic Git Commands
+#### The basic commands include initializing the Git repository, saving changes, checking logs, pushing the changes to the remote server, and merging. 
 | **Git Command**          | **Description**                                                                                           |
 |--------------------------|-----------------------------------------------------------------------------------------------------------|
 | git init                 | initialize an existing directory as a Git repository.                                                     |
@@ -12,6 +13,9 @@
 | git push                 | transmit local branch commits to the remote repository branch.                                            |
 | git pull                 | fetch and merge any commits from the tracking remote branch.                                              |
 | git checkout             | switch to another branch and check it out into your working directory.                                    |
+
+#### Complete Development with GitHub
+<img src="/Users/mariatheresacostales/Desktop/image10_1a4384e5fa.png"/>
 
 # Create a repository
 
