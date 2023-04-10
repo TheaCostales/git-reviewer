@@ -95,12 +95,18 @@ git remote add origin your-repository-url
 git add .
 
 ```
-10.Commit all changes with a message using the following command:
+
+10. Commit all changes with a message using the following command:
 ```
 git comit -m "first commit"
 
 ```
-11.Push changes to the remote repository using the following command: 
+11. Add branch by using the following command:
+```
+git branch -M main
+
+```
+12. Push changes to the remote repository using the following command: 
 ```
 git push --set-upstream origin master
 
@@ -110,4 +116,43 @@ git push --set-upstream origin master
 That's it! Your project should now be pushed to your new repository on GitHub.
 ![github5.png](images%2Fgithub5.png)
 
+## Creating Branches
+1. Open the repository you want to create a new branch on GitHub
+2. Click the drop-down arrow of the branch you wish to set as the source of your new branch
+3. Type the name for you new branch
+![github6.png](images%2Fgithub6.png)
+4. Click create branch. Now, you have 2 branches.
+5. Go to PyCharm and open the terminal window and pull the changes you made on GitHub
+```
+git pull
 
+(venv) (base) mariatheresacostales@marias-air gianpogi % git pull
+From https://github.com/TheaCostales/gianpogi
+ * [new branch]      branched-off-from-from-main -> origin/branched-off-from-from-main
+Already up to date.
+
+```
+It shows that we created a new branch in our GitHub repository.
+
+6. We can now switch to the newly created branch by using the following command:
+```
+git checkout 'name-of-the-newly-created-branch'
+
+(venv) (base) mariatheresacostales@marias-air gianpogi % git pull
+From https://github.com/TheaCostales/gianpogi
+ * [new branch]      branched-off-from-from-main -> origin/branched-off-from-from-main
+Already up to date.
+
+```
+##### Now you can make changes to your new branch locally in PyCharm and commit and push those changes as usual using Git commands.
+
+## How to update repository on your remote server
+
+Someone made some changes on your Github repository. We want to update it in PyCharm to avoid future problems. 
+
+1. On your terminal window, pull the changes you made on GitHub to your local Git repository using the following command:
+```
+git pull
+
+```
+2. PyCharm should now show your updated repository with the changes you made on GitHub.
