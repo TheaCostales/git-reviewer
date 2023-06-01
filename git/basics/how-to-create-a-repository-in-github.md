@@ -98,7 +98,7 @@ git add .
 
 10. Commit all changes with a message using the following command:
 ```
-git comit -m "first commit"
+git commit -m "first commit"
 
 ```
 11. Add branch by using the following command:
@@ -108,7 +108,7 @@ git branch -M main
 ```
 12. Push changes to the remote repository using the following command: 
 ```
-git push --set-upstream origin master
+git push --set-upstream origin main
 
 ```
 *(Note: If this is the first time you've pushed to the repository, Git will prompt you to enter GitHub username and password.)*
