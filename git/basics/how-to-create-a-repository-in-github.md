@@ -153,6 +153,5 @@ Someone made some changes on your Github repository. We want to update it in PyC
 1. On your terminal window, pull the changes you made on GitHub to your local Git repository using the following command:
 ```
 git pull
-
 ```
 2. PyCharm should now show your updated repository with the changes you made on GitHub.
