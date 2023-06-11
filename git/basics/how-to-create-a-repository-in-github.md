@@ -98,7 +98,7 @@ git add .
 
 10. Commit all changes with a message using the following command:
 ```
-git comit -m "first commit"
+git commit -m "first commit"
 
 ```
 11. Add branch by using the following command:
@@ -108,7 +108,7 @@ git branch -M main
 ```
 12. Push changes to the remote repository using the following command: 
 ```
-git push --set-upstream origin master
+git push --set-upstream origin main
 
 ```
 *(Note: If this is the first time you've pushed to the repository, Git will prompt you to enter GitHub username and password.)*
@@ -153,6 +153,5 @@ Someone made some changes on your Github repository. We want to update it in PyC
 1. On your terminal window, pull the changes you made on GitHub to your local Git repository using the following command:
 ```
 git pull
-
 ```
 2. PyCharm should now show your updated repository with the changes you made on GitHub.
